@@ -1,0 +1,8 @@
+# This file
+.gitinit
+
+# MacOS .DS_Store files:
+.DS_Store
+
+# Lazy Config File
+lazy-lock.json
