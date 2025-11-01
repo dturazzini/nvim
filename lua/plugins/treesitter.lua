@@ -11,7 +11,7 @@ return {
 		config = function()
 			require'nvim-treesitter.configs'.setup{
 				ensure_installed = {
-					"cpp", "python", "lua", "c", "luadoc", "vim", "vimdoc","rust",
+					"lua", "luadoc", "vim", "vimdoc", "c", "cpp",
 				},
 				sync_install = false,
 				auto_install = true,

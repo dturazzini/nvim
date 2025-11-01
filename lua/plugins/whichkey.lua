@@ -27,16 +27,17 @@ return {
 			{ "<leader>v", "<cmd>vsplit<cr>", desc = "Split Screen" },	
 			{ "<leader>c", "<cmd>close<cr>", desc = "Close Active Split" },	
 			{ "<leader>g", "<cmd>LazyGit<cr>", desc = "LazyGit" },
+			{ "<leader>d", "<cmd>lua vim.diagnostic.setqflist()<cr>", desc = "Debug" },
 			{ "<leader>tt", "<cmd>ToggleTerm<cr>", desc = "Terminal" },
 			{
 				"<leader>tc",
 				function()
 					vim.cmd("w")
 					vim.cmd(
-						"TermExec cmd=\"g++ % -o %< && clear && ./%<\" go_back=0"
+					"TermExec cmd=\"gcc % -o %< $(sdl2-config --cflags --libs) && clear && ./%<\" go_back=0"
 					)
 				end,
-				desc = "C++",
+				desc = "C + SDL2",
 			},
 		},
 	},

@@ -34,7 +34,6 @@ return {
 					
 					offsets = {
 						{
-							filetype = "neo-tree",
 							text = "File explorer",
 							highlight = "Directory",
 							text_align = "left",

@@ -31,3 +31,4 @@ vim.opt.autochdir = true
 vim.opt.autoindent = true
 vim.opt.smartindent = true
 vim.opt.cindent = true
+vim.opt.winbar = " "
