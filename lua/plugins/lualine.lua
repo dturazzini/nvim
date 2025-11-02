@@ -23,7 +23,7 @@ return {
 			local theme = {
 				normal = {
 					a = { fg = colors.black, bg = colors.blue },
-					b = { fg = colors.light_violet, bg = colors.grey},
+					b = { fg = colors.light_violet, bg = colors.grey },
 					z = { fg = colors.black, bg = colors.blue },
 				},
 				insert = {
@@ -33,7 +33,7 @@ return {
 				},
 				visual = {
 					a = { fg = colors.black, bg = colors.pink },
-					b = { fg = colors.pink, bg = colors.grey},
+					b = { fg = colors.pink, bg = colors.grey },
 					z = { fg = colors.black, bg = colors.pink },
 				},
 				replace = {
